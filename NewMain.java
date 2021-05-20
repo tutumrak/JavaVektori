@@ -16,7 +16,7 @@ public class NewMain {
         {         
             niz[i] = Vektor.unossatastature();           
         }
-        Vektor.sort(niz, Vektor.POREDAK.OPADAJUCI, Vektor.KRITERIJUM.X);  //2 3 1 2 5 2 3 1
+        Vektor.sort(niz, Vektor.POREDAK.OPADAJUCI, Vektor.KRITERIJUM.X); 
         for (int i=0;i<n;i++)
         {
             System.out.println(niz[i].getX());
